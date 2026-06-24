@@ -73,7 +73,7 @@ COPY e2e/init ./e2e/init
 
 RUN python -m venv /opt/tokenash-venv && \
     /opt/tokenash-venv/bin/python -m pip install --upgrade pip && \
-    /opt/tokenash-venv/bin/python -m pip install "$(ls /tmp/wheels/tokenash_ai-*.whl)[proxy]" && \
+    /opt/tokenash-venv/bin/python -m pip install "$(ls /tmp/wheels/*.whl)[proxy]" && \
     /opt/tokenash-venv/bin/python -c "from tokenash._core import DiffCompressor; print('tokenash._core OK')"
 
 CMD ["python", "e2e/init/run.py"]

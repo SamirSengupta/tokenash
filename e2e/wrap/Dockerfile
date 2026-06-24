@@ -104,7 +104,7 @@ COPY plugins/openclaw ./plugins/openclaw
 # against bookworm's glibc 2.36 at runtime.
 RUN python -m venv /opt/tokenash-venv && \
     /opt/tokenash-venv/bin/python -m pip install --upgrade pip && \
-    /opt/tokenash-venv/bin/python -m pip install "$(ls /tmp/wheels/tokenash_ai-*.whl)[proxy]" && \
+    /opt/tokenash-venv/bin/python -m pip install "$(ls /tmp/wheels/*.whl)[proxy]" && \
     /opt/tokenash-venv/bin/python -c "from tokenash._core import DiffCompressor; print('tokenash._core OK')" && \
     python -m venv /opt/aider-venv && \
     /opt/aider-venv/bin/python -m pip install --upgrade pip && \
