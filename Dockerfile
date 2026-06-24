@@ -40,7 +40,7 @@ WORKDIR /build
 # Copy the full set of files maturin needs to build the wheel: the root
 # pyproject.toml + Cargo workspace + Rust crates + Python source. The
 # uv install builds + installs the wheel in one shot.
-COPY pyproject.toml uv.lock README.md ./
+COPY pyproject.toml README.md ./
 COPY Cargo.toml Cargo.lock rust-toolchain.toml ./
 COPY crates/ crates/
 COPY tokenash/ tokenash/

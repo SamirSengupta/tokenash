@@ -246,8 +246,8 @@ tokenash-managed/
 # Release metadata artifact
 .releaseetadata
 
-# uv lockfile: regenerated locally; not committed
-uv.lock
+# uv.lock is committed (tracked) for reproducible builds and the
+# devcontainer's `uv sync --frozen`. Do not ignore it.
 
 # Rust extension `.so` symlinks placed by `scripts/build_rust_extension.sh`
 # into the `tokenash/` package dir for local development. The real binary
