@@ -1,0 +1,6 @@
+name: tokenash_retrieve
+version: 1.0.0
+description: "Retrieve original content compressed by the tokenash proxy (CCR markers)"
+author: akb4q
+provides_tools:
+  - tokenash_retrieve

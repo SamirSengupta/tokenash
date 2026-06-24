@@ -1,0 +1,29 @@
+Tokenash
+Copyright 2026 samcodeman
+
+This product includes software developed by the Tokenash project.
+
+------------------------------------------------------------------------------
+Attribution (Apache License 2.0, Section 4)
+------------------------------------------------------------------------------
+Tokenash is distributed under the Apache License, Version 2.0 (see LICENSE).
+Portions are derived from a prior work licensed under Apache 2.0; its original
+attribution is retained as the license requires:
+
+    Copyright 2026 Tokenash
+------------------------------------------------------------------------------
+Third-Party Licenses
+------------------------------------------------------------------------------
+tiktoken                 (c) 2022 OpenAI, Shantanu Jain          MIT
+                         https://github.com/openai/tiktoken
+Pydantic                 (c) 2017-present Pydantic Services Inc.  MIT
+                         https://github.com/pydantic/pydantic
+sentence-transformers    (c) 2019 Nils Reimers                   Apache-2.0
+                         https://github.com/UKPLab/sentence-transformers
+FastAPI                  (c) 2018 Sebastian Ramirez              MIT
+                         https://github.com/tiangolo/fastapi
+NumPy                    (c) 2005-2024 NumPy Developers          BSD-3-Clause
+                         https://github.com/numpy/numpy
+
+Some pretrained models downloaded at runtime may carry their own license terms;
+verify model-specific licenses before commercial use.

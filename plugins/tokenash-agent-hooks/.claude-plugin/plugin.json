@@ -1,0 +1,17 @@
+{
+  "name": "tokenash",
+  "version": "0.22.3",
+  "description": "Tokenash startup hooks for Claude Code and GitHub Copilot CLI.",
+  "author": {
+    "name": "Tokenash Contributors",
+    "url": "https://github.com/SamirSengupta/tokenash"
+  },
+  "homepage": "https://github.com/SamirSengupta/tokenash",
+  "repository": "https://github.com/SamirSengupta/tokenash",
+  "keywords": [
+    "tokenash",
+    "hooks",
+    "claude-code",
+    "copilot-cli"
+  ]
+}

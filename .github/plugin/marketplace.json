@@ -1,0 +1,30 @@
+{
+  "name": "tokenash-marketplace",
+  "owner": {
+    "name": "Tokenash Contributors"
+  },
+  "metadata": {
+    "description": "Tokenash marketplace for Claude Code and GitHub Copilot CLI plugins.",
+    "version": "0.22.3"
+  },
+  "plugins": [
+    {
+      "name": "tokenash",
+      "source": "./plugins/tokenash-agent-hooks",
+      "description": "Tokenash startup hooks for Claude Code and GitHub Copilot CLI.",
+      "version": "0.22.3",
+      "author": {
+        "name": "Tokenash Contributors",
+        "url": "https://github.com/SamirSengupta/tokenash"
+      },
+      "homepage": "https://github.com/SamirSengupta/tokenash",
+      "repository": "https://github.com/SamirSengupta/tokenash",
+      "keywords": [
+        "tokenash",
+        "hooks",
+        "claude-code",
+        "copilot-cli"
+      ]
+    }
+  ]
+}

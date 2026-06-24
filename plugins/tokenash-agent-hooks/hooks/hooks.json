@@ -1,0 +1,29 @@
+{
+  "description": "Tokenash plugin hooks — ensure the local Tokenash runtime is available for initialized agents.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "tokenash init hook ensure",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "tokenash init hook ensure",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
